@@ -28,8 +28,21 @@ Every transaction uses available debit from the credit balance. For instance cus
 
 ## Architecture
 
-[ ] - Add draw here where bacen's api is connected to woovi's api  and customer/company sends charges to it (type of pix credit/product is not specified yet)
+### Pix 
 
+Pix is handled by BACEN infrastructure through "Sistema de Pagamentos Instantâneos (SPI)"[^3]. And I quote: 
+
+>O Sistema de Pagamentos Instantâneos (SPI) é a infraestrutura centralizada e única para liquidação de pagamentos instantâneos entre instituições distintas no Brasil.
+>
+>O SPI é um sistema que faz liquidação bruta em tempo real (LBTR), ou seja, que processa e liquida transação por transação. Uma vez liquidadas, as transações são irrevogáveis.
+>
+>Os pagamentos instantâneos são liquidados com lançamentos nas contas de propósito específico que as instituições participantes diretos do sistema mantêm no BCB, denominadas Contas Pagamento Instantâneo (Contas PI). Para garantir a solidez do sistema, não há possibilidade de lançamentos a descoberto, isso é, não se admite saldo negativo nas Contas PI.
+
+#### Accessing SPI
+
+![Accessing SPI](./assets/pix-architecture-bacen.png "accessing spi")
+Image source: BACEN[^4]
+ 
 ## Pix Credit
 
 [ ] - Explain what is pix credit (maybe add an image here as well)
@@ -52,3 +65,5 @@ Every transaction uses available debit from the credit balance. For instance cus
 
 [^1]:https://www.bcb.gov.br/en/financialstability/pix_en
 [^2]:https://www.experian.com/blogs/ask-experian/credit-education/faqs/what-is-credit/
+[^3]:https://www.bcb.gov.br/estabilidadefinanceira/sistemapagamentosinstantaneos
+[^4]:https://www.bcb.gov.br/content/estabilidadefinanceira/SPI_IMG/info_sistema_pagamentos_instantaneos_acesso%20ao%20SPI_br_0170_2020.png
