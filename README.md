@@ -131,23 +131,31 @@ Now considering that this purchase used Pix Credit balance, new purchases would 
 
 **Is it possible for a **Customer** to make new purchases even without credit available?** Yes. In this case the **Issuer** steps in may provinde a new limit or new loan for the **Customer**. All of this require **Risk Analysis**. 
 
-[ ] - Explain how credit is approved/rejected (maybe add an image here as well)
+## Risks
 
+This section explains about the risks in Pix Credit Transactions followed by ways to avoid them while maitaining profitability.
 
+### For the Customer 
 
-[ ] - Explain how/when money is taken by woovi (maybe add an image here as well)
+There are two worth mentioning here: 
 
-[ ] - Explain pix credit risks for bank and customers (maybe add an image here as well)
+1. Missing Pix Credit bills therefore being charged with fees for the next bill
+**Possible solution**: **Customer** score analysis before approving credit limits or any type of upgrading
 
-### How we make money
+2. Credit fraud, someone with bad intentions taking over the **Customer** sensitive data. Thus making unauthorized purchases <br>
+**Possible solution**: Two-factor authentication in **Customer** access to **Issuer** services
 
-### Basic Work Flow
+### For the Issuer
 
-[ ] - Explain how a charge is generated, how fees are calculated and when they're charged (maybe add an image here as well)
+Two main risks will be mentioned next: 
 
-### Use Cases
+1. Yet, credit card fraud <br>
+**Possible solutions**: Improvements in Payment Fraud Detection[^8] 
 
-[ ] - Initially create one use case (maybe add an image here as well)
+2. **Customer** misses paying credit bills <br>
+**Possible solutions**: 
+    - **Issuer** may offer Revolving Credit conditions[^9]. Revolving Credit means that a lower credit amount is available when the **Customer** didn't pay the full bill but partially
+    - **Issuer** may securitize[^10] their credit card receivables meaning that all pending recivables are sell to the market
 
 [^1]:https://www.bcb.gov.br/en/financialstability/pix_en
 [^2]:https://www.experian.com/blogs/ask-experian/credit-education/faqs/what-is-credit/
@@ -156,3 +164,6 @@ Now considering that this purchase used Pix Credit balance, new purchases would 
 [^5]:https://lucascmrosa.medium.com/sistemas-de-pagamentos-i-cart%C3%B5es-53ece499f9e3
 [^6]:https://www.nerdwallet.com/article/credit-cards/credit-card-companies-money
 [^7]:https://www.clearlypayments.com/blog/how-long-does-it-take-to-get-funds-in-credit-card-processing/#:~:text=In%20general%2C%20credit%20card%20processing,with%20a%20merchant%20account%20provider.
+[^8]:https://www.mastercardservices.com/en/portfolio-intelligence-solutionswith%20a%20merchant%20account%20provider.
+[^9]:https://www.investopedia.com/terms/r/revolvingcredit.aspwith%20a%20merchant%20account%20provider.
+[^10]:https://crdc.com.br/o-que-e-securitizacao-de-recebiveis-e-como-funciona-um-guia-completo
