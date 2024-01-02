@@ -43,6 +43,28 @@ Pix is handled by BACEN infrastructure through "Sistema de Pagamentos Instantân
 ![Accessing SPI](./assets/pix-architecture-bacen.png "accessing spi")
 Image source: BACEN[^4]
  
+### Credit Card
+
+Credit card payment proccessing is defined as a "Payment Arrangement" meaning that several players participate in this process. As consequence many different infrastructures are chained up to the point where merchants are paid and customers get their final bill.[^5] I quote: 
+
+>Um arranjo de pagamento é um conjunto de regras e procedimentos que disciplina a prestação de determinado serviço de pagamento ao público. Diferentemente da compra com dinheiro vivo entre duas pessoas que se conhecem, o arranjo conecta todas as pessoas que a ele aderem. É o que acontece quando o cliente usa uma bandeira de cartão de crédito numa compra que só é possível porque o vendedor aceita receber daquela bandeira.
+
+#### Accessing Credit
+
+![Accessing SPI](./assets/credit-card-architecture.webp "accessing credit")
+Image source: Lucas Rosa[^5]
+
+**<p style="text-align: center">Subtitle</p>**
+
+| Role       | Function                                                                                                         |
+|------------|------------------------------------------------------------------------------------------------------------------|
+| Customer   | Is a cardholder, someone who owns the credit card.                                                               |
+| Merchant   | Store who seels a service or product.                                                                            |
+| Acquirer   | Institution that brigdes merchants and card brands.                                                              |
+| Card Brand | They're responsible for bridging customers, acquirers and issuers. The most famous ones are Visa and Mastercard. |
+| Issuer     | Finantial institution responsible for paying acquirers and collecting money from customers.                      |
+| POS        | Point Of Sale, device that merchants use to charge their clients.                                                |
+
 ## Pix Credit
 
 [ ] - Explain what is pix credit (maybe add an image here as well)
@@ -67,3 +89,4 @@ Image source: BACEN[^4]
 [^2]:https://www.experian.com/blogs/ask-experian/credit-education/faqs/what-is-credit/
 [^3]:https://www.bcb.gov.br/estabilidadefinanceira/sistemapagamentosinstantaneos
 [^4]:https://www.bcb.gov.br/content/estabilidadefinanceira/SPI_IMG/info_sistema_pagamentos_instantaneos_acesso%20ao%20SPI_br_0170_2020.png
+[^5]:https://lucascmrosa.medium.com/sistemas-de-pagamentos-i-cart%C3%B5es-53ece499f9e3
