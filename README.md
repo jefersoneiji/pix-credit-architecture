@@ -41,6 +41,7 @@ Pix is handled by BACEN infrastructure through "Sistema de Pagamentos Instantân
 #### Accessing SPI
 
 ![Accessing SPI](./assets/pix-architecture-bacen.png "accessing spi")
+
 Image source: BACEN[^4]
  
 ### Credit Card
@@ -52,15 +53,16 @@ Credit card payment proccessing is defined as a "Payment Arrangement" meaning th
 #### Accessing Credit
 
 ![Accessing SPI](./assets/credit-card-architecture.webp "accessing credit")
+
 Image source: Lucas Rosa[^5]
 
-**<p style="text-align: center">Subtitle</p>**
+**<p align="center">Subtitle</p>**
 
 | Role       | Function                                                                                                         |
 |------------|------------------------------------------------------------------------------------------------------------------|
 | Customer   | Is a cardholder, someone who owns the credit card.                                                               |
 | Merchant   | Store who seels a service or product.                                                                            |
-| Acquirer   | Institution that brigdes merchants and card brands.                                                              |
+| Acquirer   | Institution that brigdes merchants and card brands. Providers of credit card machines used in POS for instance. Just to mention a few Cielo, Stone and SumUp.                                                             |
 | Card Brand | They're responsible for bridging customers, acquirers and issuers. The most famous ones are Visa and Mastercard. |
 | Issuer     | Finantial institution responsible for paying acquirers and collecting money from customers.                      |
 | POS        | Point Of Sale, device that merchants use to charge their clients.                                                |
@@ -75,7 +77,7 @@ Let's imagine a Marchant adopted Pix Credit (PC) in their Point Of Sale (POS). T
 
 1. A Pix charge is generate in Woovi's platform from the **Merchant** side
 2. The **Customer** opens his/her Pix Credit Section provided by the **Issuer**
-3. This Pix Charge is paid for the **Customer**
+3. This Pix Charge is paid by the **Customer**
 4. The amount for this purchase is charged from Pix Credit **Customer** balance
 5. Purchase is done from **Merchant** side
 6. For the next purchase, all steps above may be repeated untill no balance if left in **Customer**'s Pix Credit balance 
