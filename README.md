@@ -79,8 +79,24 @@ Let's imagine a Marchant adopted Pix Credit (PC) in their Point Of Sale (POS). T
 2. The **Customer** opens his/her Pix Credit Section provided by the **Issuer**
 3. This Pix Charge is paid by the **Customer**
 4. The amount for this purchase is charged from Pix Credit **Customer** balance
-5. Purchase is done from **Merchant** side
+5. **Merchant** cashes in sales amount
 6. For the next purchase, all steps above may be repeated untill no balance if left in **Customer**'s Pix Credit balance 
+
+## Business Rules
+
+Next, all the steps above are dissected in context of business rules. 
+
+### 1. Charge Generation
+
+In essence there are **three sources of revenue**[^6] for Pix Credit: 
+
+1. Interest from Monthly bill (**Customer**)
+2. Fees from past due bills or cash advance (**Customer**)
+3. Interchange also known as transaction fees (**Merchant**)
+
+Considering the charge generation mentioned before, one fee is applied **(Interchange)**:  The **Merchant** pays up to **8%** from total sold. For a sale of **$3.000,00 (three thousand)** up to **$240** is charged from  him/her. 
+
+
 
 [ ] - Explain how we make money from transactions (maybe add an image here as well)
 
@@ -107,3 +123,4 @@ Let's imagine a Marchant adopted Pix Credit (PC) in their Point Of Sale (POS). T
 [^3]:https://www.bcb.gov.br/estabilidadefinanceira/sistemapagamentosinstantaneos
 [^4]:https://www.bcb.gov.br/content/estabilidadefinanceira/SPI_IMG/info_sistema_pagamentos_instantaneos_acesso%20ao%20SPI_br_0170_2020.png
 [^5]:https://lucascmrosa.medium.com/sistemas-de-pagamentos-i-cart%C3%B5es-53ece499f9e3
+[^6]:https://www.nerdwallet.com/article/credit-cards/credit-card-companies-money
