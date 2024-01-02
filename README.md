@@ -121,6 +121,15 @@ For sales where the **Customer** used his/her account balance, cash in is almost
 
 On the other hand, for sales where the **Customer** used his/her Pix Credit balance time for funding may vary between 1 and 3 business days[^7]. 
 
+### 6. Balance debiting from customer
+
+As last step in this basic working flow the balance was debited similarly to a debit purchase. Therefore this proccess would repeat itself to the point where no balance is left in the account for future **Customer** purchases. 
+
+Now considering that this purchase used Pix Credit balance, new purchases would use the credit balance, up to the point where the credit balance hits $0 (zero) available for the **Customer**.
+
+**What would happen when credit balance goes $0 (zero)?** The **Issuer** rejects new purchases from this **Customer**.
+
+**Is it possible for a **Customer** to make new purchases even without credit available?** Yes. In this case the **Issuer** steps in may provinde a new limit or new loan for the **Customer**. All of this require **Risk Analysis**. 
 
 [ ] - Explain how credit is approved/rejected (maybe add an image here as well)
 
