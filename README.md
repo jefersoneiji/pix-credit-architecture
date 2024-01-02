@@ -115,7 +115,12 @@ Considering the previous step, that transaction works almost as the same as debi
 
 When money is withdraw from pix credit, the **Issuer** is responsible for taking the borrowing risk. Moreso, the **Issuer** also acts in the settlement phase where **Merchants** get paid after this transaction is authorized by the **Issuer** itself. 
 
-[ ] - Explain how we make money from transactions (maybe add an image here as well)
+### 5. Merchant cashes in money from sale
+
+For sales where the **Customer** used his/her account balance, cash in is almost intanteneous for **Merchant**. Pix cash in **time is max of 10 seconds**. 
+
+On the other hand, for sales where the **Customer** used his/her Pix Credit balance time for funding may vary between 1 and 3 business days[^7]. 
+
 
 [ ] - Explain how credit is approved/rejected (maybe add an image here as well)
 
@@ -141,3 +146,4 @@ When money is withdraw from pix credit, the **Issuer** is responsible for taking
 [^4]:https://www.bcb.gov.br/content/estabilidadefinanceira/SPI_IMG/info_sistema_pagamentos_instantaneos_acesso%20ao%20SPI_br_0170_2020.png
 [^5]:https://lucascmrosa.medium.com/sistemas-de-pagamentos-i-cart%C3%B5es-53ece499f9e3
 [^6]:https://www.nerdwallet.com/article/credit-cards/credit-card-companies-money
+[^7]:https://www.clearlypayments.com/blog/how-long-does-it-take-to-get-funds-in-credit-card-processing/#:~:text=In%20general%2C%20credit%20card%20processing,with%20a%20merchant%20account%20provider.
