@@ -96,7 +96,14 @@ In essence there are **three sources of revenue**[^6] for Pix Credit:
 
 Considering the charge generation mentioned before, one fee is applied **(Interchange)**:  The **Merchant** pays up to **8%** from total sold. For a sale of **$3.000,00 (three thousand)** up to **$240** is charged from  him/her. 
 
+### 2. Customer Pix Credit Access
 
+In this step the **Customer** needs a mean to pay his debt. So his/her banking app transactions the available balance. There are two possible situations: 
+
+1. Customer **has balance available** so this money is debited
+2. Customer **uses Pix Credit balance** thus borrowing money from his **Issuer**. Later on this pending payment becomes a Pix Credit Bill
+
+Now, back to the basic working flow...this money is withdraw from option 1.
 
 [ ] - Explain how we make money from transactions (maybe add an image here as well)
 
