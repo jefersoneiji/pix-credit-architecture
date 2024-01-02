@@ -105,10 +105,6 @@ In this step the **Customer** needs a mean to pay his debt. So his/her banking a
 
 Now, back to the basic working flow...this money is withdraw from option 1.
 
-### 3. Money is Withdraw from Customer Account
-
-Because the **Customer** used already had money is his/her account money was witdraw from it. **Therefore, no Pix Credit Bill was debited**.
-
 [ ] - Explain how we make money from transactions (maybe add an image here as well)
 
 [ ] - Explain how credit is approved/rejected (maybe add an image here as well)
