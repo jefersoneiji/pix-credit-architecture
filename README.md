@@ -109,6 +109,12 @@ Now, back to the basic working flow...this money is withdraw from option 1.
 
 Because the **Customer** used already had money is his/her account money was witdraw from it. **Therefore, no Pix Credit Bill was debited**.
 
+### 4. Customer's balance is debited
+
+Considering the previous step, that transaction works almost as the same as debit card. 
+
+When money is withdraw from pix credit, the **Issuer** is responsible for taking the borrowing risk. Moreso, the **Issuer** also acts in the settlement phase where **Merchants** get paid after this transaction is authorized by the **Issuer** itself. 
+
 [ ] - Explain how we make money from transactions (maybe add an image here as well)
 
 [ ] - Explain how credit is approved/rejected (maybe add an image here as well)
