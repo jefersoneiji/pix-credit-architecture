@@ -67,11 +67,26 @@ Image source: Lucas Rosa[^5]
 
 ## Pix Credit
 
-[ ] - Explain what is pix credit (maybe add an image here as well)
+Pix Credit combines the agility of payment from pix with the easiness of borrowing money through credit. 
+
+### Basic Working Flow
+
+Let's imagine a Marchant adopted Pix Credit (PC) in their Point Of Sale (POS). Thus as expected a customer makes a purchase using PC balance available in his/her account. 
+
+1. A Pix charge is generate in Woovi's platform from the **Merchant** side
+2. The **Customer** opens his/her Pix Credit Section provided by the **Issuer**
+3. This Pix Charge is paid for the **Customer**
+4. The amount for this purchase is charged from Pix Credit **Customer** balance
+5. Purchase is done from **Merchant** side
+6. For the next purchase, all steps above may be repeated untill no balance if left in **Customer**'s Pix Credit balance 
+
+[ ] - Explain how we make money from transactions (maybe add an image here as well)
 
 [ ] - Explain how credit is approved/rejected (maybe add an image here as well)
 
-[ ] - Explain how we make money from transactions (maybe add an image here as well)
+
+
+[ ] - Explain how/when money is taken by woovi (maybe add an image here as well)
 
 [ ] - Explain pix credit risks for bank and customers (maybe add an image here as well)
 
